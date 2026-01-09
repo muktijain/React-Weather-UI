@@ -7,8 +7,9 @@ import Typography from '@mui/material/Typography';
 export default function SearchBox({updateInfo}) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
+
     const API_URl = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "21568f09e6f7061de1830241f2a26c54";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
     let getWeatherInfo = async () => {
         try{      
