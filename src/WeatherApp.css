@@ -1,0 +1,43 @@
+/* Container for the whole app */
+.weatherRoot {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to bottom, #2980B9,#6DD5FA, #b6dff0,#FFFFFF);
+  padding-top: 40px;
+}
+
+.WeatherApp {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin: 20px 40px;
+  background: linear-gradient(to bottom, #2980B9,#6DD5FA, #b6dff0,#FFFFFF);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Header styling */
+header h2 {
+  font-size: 2.5rem;
+  color: #F2FEFF;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+/* Centered main content */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* space between search box and info box */
+  width: 100%;
+  max-width: 500px;
+}
+

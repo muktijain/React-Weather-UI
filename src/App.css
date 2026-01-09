@@ -1,0 +1,23 @@
+/* REMOVE ALL DEFAULT SPACING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FORCE FULL HEIGHT CHAIN */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* MOST IMPORTANT PART */
+#root {
+  height: 100%;
+  width: 100%;
+}
