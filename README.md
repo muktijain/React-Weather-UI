@@ -37,7 +37,17 @@ The interface adapts visually based on temperature and humidity, providing an in
 
 ## Application Preview
 
-> Screenshots can be added here once available.
+Here’s how the app looks under different weather conditions:
+
+### ☀️ Hot / Clear Weather
+![Hot Weather](assets/Hot-Weather.png)
+
+### ❄️ Cold / Snowy Weather
+![Cold Weather](assets/ColdWeather.png)
+
+### 🌧 Rainy / Humid Weather
+![Rainy Weather](assets/RainyWeather.png)
+
 
 ---
 
